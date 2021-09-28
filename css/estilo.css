@@ -2,40 +2,66 @@
    margin: 10px;
    padding: 10px;
    box-sizing: border-box;
-   
-   font-family: 'Birthstone Bounce', cursive;
+}
+
+body{
+	font-family: 'Lora', serif;
+	/*font-family: 'Montserrat', sans-serif;*/
+}
+a{
+	text-decoration: none;
 }
 .padre{
   display: flex;
   flex-flow: column nowrap;
 }
   .header{
-    background: #000;
+    background: url(../imagenes/bg2.jpg);
+	background-position: center;
+	background-attachment: contain;
+	background-size:cover;
     display: flex;
     flex-flow: column nowrap;
   }
     .menu{
-      background: #2d4059;
+      background:rbga(0,0,0,.1);
       display: flex;
       flex-flow: nowrap;
       height: 100px;
       align-items:center;
     }
       .logo{
-        background: #ea5455;
         flex: 1 1 auto;
-        height: 30px;
       }
+	    .logo a{
+			color:#fff;
+			font-size:30px;
+		}
+		.logo a:hover{
+			color:#343434;
+		}
       .nav{
-        background: #ea5455;
         flex: 5 1 auto;
-        height: 30px;
       }
+	    .nav a{
+			color:#fff;
+			font-size: 11px;
+			text-transform:uppercase;
+			padding: 0 10px;
+			letter-spacing: 2px;
+		}
+		.nav a:hover{
+			color:#343434;
+		}
       .social{
-        background: #ea5455;
         flex: 1 1 auto;
-        height: 30px;
+		display: flex;
       }
+	    .social a{
+			font-size: 18px;
+			color:#fff;
+			padding:0 5px;
+		}
     .texto-principal{
       background: #f07b3f;
     }
