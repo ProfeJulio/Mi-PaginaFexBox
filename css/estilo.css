@@ -1,5 +1,5 @@
 *{
-   margin: 10px;
+   margin:0px;
    padding: 10px;
    box-sizing: border-box;
 }
@@ -26,9 +26,10 @@ a{
     .menu{
       background:rbga(0,0,0,.1);
       display: flex;
-      flex-flow: nowrap;
-      height: 100px;
+      flex-flow: row nowrap;
+      height: 60px;
       align-items:center;
+	  border-bottom: 1px solid rgba(255,255,255,.5);
     }
       .logo{
         flex: 1 1 auto;
@@ -41,7 +42,7 @@ a{
 			color:#343434;
 		}
       .nav{
-        flex: 5 1 auto;
+        flex:  1 auto;
       }
 	    .nav a{
 			color:#fff;
@@ -62,11 +63,22 @@ a{
 			color:#fff;
 			padding:0 5px;
 		}
+		.social a:hover{
+			color:#343434;
+		}			
     .texto-principal{
-      background: #f07b3f;
+      /*background: #f07b3f;*/
+	  height: 580px;
+	  display:flex;
+	  align-items: center;
     }
       h1{
-        background: #ffd460;
+        font-family: "Lora", serif;
+		font-size:21px;
+		color:#fff;
+		font-weight: 300;
+		text-align: center;
+		line-height: 1.6;
       }
   .section{
     background: #000;
@@ -89,7 +101,7 @@ a{
       }
     .aside{
       background: #f73f52;
-      flex: 1 1 auto;
+      flex-flow: row wrap;
     }
       .publicidad{
         background: #ffea85;
