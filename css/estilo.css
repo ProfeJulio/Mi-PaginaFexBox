@@ -68,7 +68,7 @@ a{
 		}
 		.social a:hover{
 			color:#343434;
-		}			
+		}
     .texto-principal{
       /*background: #f07b3f;*/
 	  height: 580px;
@@ -92,7 +92,7 @@ a{
       flex: 2 1 auto;
       display: flex;
 	  flex-flow: row wrap;
-      
+
     }
       .article{
         flex: 1 1 40%;
@@ -144,7 +144,7 @@ a{
     .aside{
        /* background: #f73f52;*/
         flex:1 1 auto;
-		margin:10px 5px 10px 0;
+		    margin:10px 5px 10px 0;
     }
 	.aside img{
 		width:100%;
@@ -193,7 +193,7 @@ a{
   .texto-principal{
 	 height:450px;
   }
-}   
+}
 @media all and (max-width: 762px){
   .articulos{
     flex-direction: column;
